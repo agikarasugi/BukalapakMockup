@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F2F8"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/topsearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:padding="20dp">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/roundedittext"
+                android:padding="15dp"
+                android:drawableStart="@drawable/seachiconres"
+                android:drawablePadding="10dp"
+                android:hint="BUKALAPAK"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/firstbuttons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:layout_below="@+id/topsearch"
+            android:paddingBottom="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableTop="@drawable/bolticonres"
+                    android:drawablePadding="5dp"
+                    android:text="Flash deal"
+                    android:textAllCaps="false"
+                    android:textSize="13dp"
+                    android:singleLine="true"
+                    android:background="#FFFFFF"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="20dp"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableTop="@drawable/shippingiconres"
+                    android:drawablePadding="5dp"
+                    android:text="Gratis Ongkir"
+                    android:textAllCaps="false"
+                    android:textSize="13dp"
+                    android:singleLine="true"
+                    android:background="#FFFFFF"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="20dp"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableTop="@drawable/discounticonres"
+                    android:drawablePadding="5dp"
+                    android:text="Special Promo"
+                    android:textAllCaps="false"
+                    android:textSize="13dp"
+                    android:singleLine="true"
+                    android:background="#FFFFFF"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="20dp"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableTop="@drawable/hearticonres"
+                    android:drawablePadding="5dp"
+                    android:text="Barang Favorit"
+                    android:textAllCaps="false"
+                    android:textSize="13dp"
+                    android:singleLine="true"
+                    android:background="#FFFFFF"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="20dp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/secondbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:padding="5dp"
+            android:layout_below="@+id/firstbuttons">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:text="Special untukmu"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:layout_weight="3"
+                android:layout_gravity="center"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Lihat Semua"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:textColor="#ce2160"
+                android:background="#FFFFFF"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/sliderMockup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/secondbutton"
+            android:padding="10dp"
+
+            android:background="#FFFFFF">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:background="@drawable/placeholderbutton"
+
+                android:layout_marginBottom="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sliderMockup"
+            android:paddingTop="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/thirdbutton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="5dp"
+                        android:text="Menu Favorit"
+                        android:textStyle="bold"
+                        android:textColor="#000000"
+                        android:textSize="20dp"
+                        android:layout_weight="3"
+                        android:layout_gravity="center"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="Lihat Semua"
+                        android:textStyle="bold"
+                        android:textAllCaps="false"
+                        android:textColor="#ce2160"
+                        android:background="#FFFFFF"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#FFFFFF"
+                    android:layout_below="@+id/thirdbutton"
+                    android:padding="10dp">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#FFFFFF"
+                        android:drawableTop="@drawable/geariconres"
+                        android:text="Coming soon"
+                        android:textAllCaps="false"
+                        android:layout_weight="1"/>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#FFFFFF"
+                        android:drawableTop="@drawable/geariconres"
+                        android:text="Coming soon"
+                        android:textAllCaps="false"
+                        android:layout_weight="1"/>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#FFFFFF"
+                        android:drawableTop="@drawable/geariconres"
+                        android:text="Coming soon"
+                        android:textAllCaps="false"
+                        android:layout_weight="1"/>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#FFFFFF"
+                        android:drawableTop="@drawable/geariconres"
+                        android:text="Coming soon"
+                        android:textAllCaps="false"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>
